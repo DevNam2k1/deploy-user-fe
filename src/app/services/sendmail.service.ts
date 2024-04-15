@@ -7,7 +7,7 @@ import { Order } from '../common/Order';
 })
 export class SendmailService {
 
-  url = 'http://deploy-backend-production-4592.up.railway.app/api/send-mail'
+  url = 'https://deploy-backend-production-4592.up.railway.app/api/send-mail'
 
   constructor(private httpClient: HttpClient) { }
 

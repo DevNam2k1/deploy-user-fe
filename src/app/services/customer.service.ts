@@ -8,8 +8,8 @@ import { Login } from '../common/Login';
 })
 export class CustomerService {
 
-  url = 'http://deploy-backend-production-4592.up.railway.app/api/users';
-  urlAuthentication = 'http://deploy-backend-production-4592.up.railway.app/api';
+  url = 'https://deploy-backend-production-4592.up.railway.app/api/users';
+  urlAuthentication = 'https://deploy-backend-production-4592.up.railway.app/api';
 
   constructor(private httpClient: HttpClient) { }
 

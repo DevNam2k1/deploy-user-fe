@@ -8,11 +8,11 @@ import { OrderDetail } from '../common/OrderDetail';
 })
 export class OrdersService {
 
-  urlOD = 'http://deploy-backend-production-4592.up.railway.app/api/order-detail';
+  urlOD = 'https://deploy-backend-production-4592.up.railway.app/api/order-detail';
 
-  urlO = 'http://deploy-backend-production-4592.up.railway.app/api/orders';
+  urlO = 'https://deploy-backend-production-4592.up.railway.app/api/orders';
 
-  urlVnpay = 'http://deploy-backend-production-4592.up.railway.app/create_payment';
+  urlVnpay = 'https://deploy-backend-production-4592.up.railway.app/create_payment';
 
   constructor(private httpClient: HttpClient) { }
 

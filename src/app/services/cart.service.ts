@@ -10,9 +10,9 @@ import { OrderDetail } from '../common/OrderDetail';
   providedIn: 'root'
 })
 export class CartService {
-  urlC = 'http://deploy-backend-production-4592.up.railway.app/api/cart';
+  urlC = 'https://deploy-backend-production-4592.up.railway.app/api/cart';
 
-  urlD = 'http://deploy-backend-production-4592.up.railway.app/api/cart-detail';
+  urlD = 'https://deploy-backend-production-4592.up.railway.app/api/cart-detail';
 
   totalCartItems: BehaviorSubject<number> = new BehaviorSubject<number>(0);
   $data: Observable<number> = this.totalCartItems.asObservable();

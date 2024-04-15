@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ProductService {
 
-  url = 'http://deploy-backend-production-4592.up.railway.app/api/products';
+  url = 'https://deploy-backend-production-4592.up.railway.app/api/products';
 
   constructor(private httpClient: HttpClient) { }
 

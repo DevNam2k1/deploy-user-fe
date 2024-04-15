@@ -7,7 +7,7 @@ import { Rate } from '../common/Rate';
 })
 export class RateService {
 
-  url = 'http://deploy-backend-production-4592.up.railway.app/api/rates'
+  url = 'https://deploy-backend-production-4592.up.railway.app/api/rates'
 
   constructor(private httpClient: HttpClient) { }
 
